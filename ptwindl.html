@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DuckStation: Fast PS1 Emulator</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top"> <!--remove fixed-top for white bar-->
+    <div class="container-fluid px-4 px-lg-5">
+      <a class="navbar-brand text-light" href="#!"><img src="assets/img/smol.png" alt="DuckStation">&nbsp;&nbsp;&nbsp;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 ">
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Início <i class="bi bi-house-door"></i></a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle btn-light" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown">Download &nbsp;<i class="bi bi-arrow-down-circle"></i></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="windl.html">Windows</a></li>
+              <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation&hl=en_AU&gl=US">Android</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="https://www.duckstation.org/wiki/Main_Page">Wiki  <i class="bi bi-book-half"></i></a>
+          </li>
+
+        </ul>
+        <td>
+          <div class="dropdown">
+            <form class="d-flex">
+              <button class="btn btn-outline-light" type="submit">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="bi bi-globe"></span>&nbsp;Idioma</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu1">
+                  <li><a class="dropdown-item" href="windl.html">Inglês</a></li>
+                  <li><a class="dropdown-item" href="jpwindl.html">Japonês</a></li>
+									<li><a class="dropdown-item" href="ptindex.html">Português</a></li>
+                </ul>
+              </button>
+            </form>
+          </div>
+        </td>
+      </div>
+    </div>
+  </nav>
+  <header class="masthead">
+    <div class="container px-4 px-lg-5 h-100">
+      <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-8 align-self-end">
+          <h1 class="text-white font-weight-bold">DuckStation Windows</h1>
+          <hr class="divider" />
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 text-light">É necessário que o Runtime VC++  seja instalado antes da execução.</p>
+          <p class="text-white-75 mb-5 text-light">Baixar o Runtime VC++ bem como do emulador abaixo:</p>
+          <a class="btn btn-outline-light btn-xl" href="https://aka.ms/vs/17/release/vc_redist.x64.exe">Baixar VC++</a>
+          <a class="btn btn-outline-light btn-xl"
+            href="https://github.com/stenzek/duckstation/releases/download/latest/duckstation-windows-x64-release.zip">Baixar Duckstation</a>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-center text-white text-lg-start fixed-bottom">
+      <!-- Copyright -->
+      <div class="text-center p-2" style="background-color: rgba(0, 50, 80, 50.0);">
+        © 2022 Copyright:
+        <a class="text-white">Kin37ik.</a> Feito para o DuckStation.org
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </header>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

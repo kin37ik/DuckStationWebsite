@@ -11,6 +11,7 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+
 header.masthead2 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -21,9 +22,12 @@ header.masthead2 {
   background-attachment: scroll;
   background-size: cover;
 }
-header.masthead h1, header.masthead .h1 {
+
+header.masthead h1,
+header.masthead .h1 {
   font-size: 2.25rem;
 }
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -31,21 +35,30 @@ header.masthead h1, header.masthead .h1 {
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
+
   header.masthead p {
     font-size: 1.15rem;
   }
-  header.masthead h1, header.masthead .h1 {
+
+  header.masthead h1,
+  header.masthead .h1 {
     font-size: 3rem;
   }
 }
+
 @media (min-width: 1200px) {
-  header.masthead h1, header.masthead .h1 {
+
+  header.masthead h1,
+  header.masthead .h1 {
     font-size: 3.5rem;
   }
 }
-header.masthead2 h1, header.masthead2 .h1 {
+
+header.masthead2 h1,
+header.masthead2 .h1 {
   font-size: 2.25rem;
 }
+
 @media (min-width: 992px) {
   header.masthead2 {
     height: 100vh;
@@ -53,65 +66,82 @@ header.masthead2 h1, header.masthead2 .h1 {
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
+
   header.masthead2 p {
     font-size: 1.15rem;
   }
-  header.masthead2 h1, header.masthead .h1 {
+
+  header.masthead2 h1,
+  header.masthead .h1 {
     font-size: 3rem;
   }
 }
+
 @media (min-width: 1200px) {
-  header.masthead2 h1, header.masthead .h1 {
+
+  header.masthead2 h1,
+  header.masthead .h1 {
     font-size: 3.5rem;
   }
 }
+
 .dropdown-item {
-	color: #FFFFFF
+  color: #FFFFFF
 }
+
 .dropdown-menu {
-	background-color: transparent;
-	border: 1px solid#FFFFFF
+  background-color: transparent;
+  border: 1px solid#FFFFFF
 }
+
 .nav-link {
-	color: #FFFFFF
+  color: #FFFFFF
 }
+
 .nav-item .nav-link.active {
-	color: #FFFFFF
+  color: #FFFFFF
 }
+
 .nav-link:hover {
-	color: #000000
+  color: #000000
 }
+
 .dropdown-toggle::after {
-    display:none;
+  display: none;
 }
+
 .my-image-container {
   height: 250px;
   background: url("assets/img/ducko256.png") top left no-repeat;
   float: left;
-  margin-left:250px; 
+  margin-left: 250px;
 
-  max-width:250px;
+  max-width: 250px;
 }
+
 .my-image-container2 {
   height: 250px;
   background: url("assets/img/duckoups.png") top left no-repeat;
   float: left;
-  margin-left:250px; 
+  margin-left: 250px;
 
-  max-width:250px;
+  max-width: 250px;
 }
+
 .container-sm {
-	margin-top: 230px;
-	margin-left: 200px;
+  margin-top: 230px;
+  margin-left: 200px;
 }
-.col-lg-7{
-	margin-left: 40px;
+
+.col-lg-7 {
+  margin-left: 40px;
 }
 
 .container2 {
-	padding-top:160px;
+  padding-top: 160px;
 
 }
+
 .text-white {
-	font-family:"Helvetica";
+  font-family: "Helvetica";
 }
