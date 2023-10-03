@@ -1,20 +1,9 @@
 @charset "utf-8";
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 200, 250, 1.0) 10%, rgba(0, 80, 190, 1.0) 100%), url("../assets/img/bg-masthead.jpg");
-  height: 100vh;
-  background-position: relative;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
+header.masthead,
 header.masthead2 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(240, 20, 100, 1.0) 10%, rgba(200, 140, 0, 1.0) 100%), url("../assets/img/bg-masthead.jpg");
   height: 100vh;
   background-position: relative;
   background-repeat: no-repeat;
@@ -22,109 +11,86 @@ header.masthead2 {
   background-size: cover;
 }
 
+header.masthead {
+  background: linear-gradient(to bottom, rgba(0, 200, 250, 1.0) 10%, rgba(0, 80, 190, 1.0) 100%);
+}
+
+header.masthead2 {
+  background: linear-gradient(to bottom, rgba(240, 20, 100, 1.0) 10%, rgba(200, 140, 0, 1.0) 100%);
+}
+
 header.masthead h1,
-header.masthead .h1 {
-  font-size: 2.25rem;
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 40rem;
-    padding-top: 4.5rem;
-    padding-bottom: 0;
-  }
-
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-
-  header.masthead h1,
-  header.masthead .h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-
-  header.masthead h1,
-  header.masthead .h1 {
-    font-size: 3.5rem;
-  }
-}
-
+header.masthead .h1,
 header.masthead2 h1,
 header.masthead2 .h1 {
   font-size: 2.25rem;
 }
 
 @media (min-width: 992px) {
+  header.masthead,
   header.masthead2 {
-    height: 100vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
 
+  header.masthead p,
   header.masthead2 p {
     font-size: 1.15rem;
   }
 
+  header.masthead h1,
+  header.masthead .h1,
   header.masthead2 h1,
-  header.masthead .h1 {
+  header.masthead2 .h1 {
     font-size: 3rem;
   }
 }
 
 @media (min-width: 1200px) {
-
+  header.masthead h1,
+  header.masthead .h1,
   header.masthead2 h1,
-  header.masthead .h1 {
+  header.masthead2 .h1 {
     font-size: 3.5rem;
   }
 }
 
-.dropdown-item {
-  color: #FFFFFF
+.dropdown-item,
+.nav-link,
+.nav-item .nav-link.active {
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  color: #000000;
 }
 
 .dropdown-menu {
   background-color: transparent;
-  border: 1px solid#FFFFFF
-}
-
-.nav-link {
-  color: #FFFFFF
-}
-
-.nav-item .nav-link.active {
-  color: #FFFFFF
-}
-
-.nav-link:hover {
-  color: #000000
+  border: 1px solid #FFFFFF;
 }
 
 .dropdown-toggle::after {
   display: none;
 }
 
-.my-image-container {
+.my-image-container,
+.my-image-container2 {
   height: 250px;
-  background: url("assets/img/ducko256.png") top left no-repeat;
+  background-position: top left;
+  background-repeat: no-repeat;
   float: left;
   margin-left: 250px;
-
   max-width: 250px;
 }
 
-.my-image-container2 {
-  height: 250px;
-  background: url("assets/img/duckoups.png") top left no-repeat;
-  float: left;
-  margin-left: 250px;
+.my-image-container {
+  background-image: url("assets/img/ducko256.png");
+}
 
-  max-width: 250px;
+.my-image-container2 {
+  background-image: url("assets/img/duckoups.png");
 }
 
 .container-sm {
@@ -138,7 +104,6 @@ header.masthead2 .h1 {
 
 .container2 {
   padding-top: 160px;
-
 }
 
 .text-white {
