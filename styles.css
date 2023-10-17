@@ -95,7 +95,6 @@ header.masthead2 .h1 {
 
 @charset "utf-8";
 
-/* Common styles for both mastheads */
 header.masthead, header.masthead2 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -103,31 +102,26 @@ header.masthead, header.masthead2 {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  text-align: center; /* Center align text on mobile */
+  text-align: center;
 }
 
-/* Mobile styles for masthead 1 */
 header.masthead {
   background: linear-gradient(to bottom, rgba(0, 200, 250, 1.0) 10%, rgba(0, 80, 190, 1.0) 100%);
 }
 
-/* Mobile styles for masthead 2 */
 header.masthead2 {
   background: linear-gradient(to bottom, rgba(240, 20, 100, 1.0) 10%, rgba(200, 140, 0, 1.0) 100%);
 }
 
-/* Mobile styles for headings in both mastheads */
 header.masthead h1, header.masthead .h1, header.masthead2 h1, header.masthead2 .h1 {
   font-size: 2rem;
   padding-top: 9vh;
 }
 
-/* Mobile styles for paragraphs in both mastheads */
 header.masthead p, header.masthead2 p {
   font-size: 1rem;
 }
 
-/* Desktop styles for headings in both mastheads */
 @media (min-width: 768px) {
   header.masthead h1, header.masthead .h1, header.masthead2 h1, header.masthead2 .h1 {
     font-size: 3rem;
@@ -135,35 +129,29 @@ header.masthead p, header.masthead2 p {
   }
 }
 
-/* Common styles for navigation links */
 .dropdown-item, .nav-link, .nav-item .nav-link.active {
   color: #FFFFFF;
 }
 
-/* Mobile styles for navigation links */
 .nav-link:hover {
   color: #000000;
 }
 
-/* Common styles for dropdown menus */
 .dropdown-menu {
   background-color: transparent;
   border: 1px solid #FFFFFF;
 }
 
-/* Hide the dropdown arrow */
 .dropdown-toggle::after {
   display: none;
 }
 
-/* Styles for image containers */
 .my-image-container, .my-image-container2 {
   height: 250px;
-  max-width: 100%; /* Make images responsive */
-  margin: 0 auto; /* Center images horizontally */
+  max-width: 100%;
+  margin: 0 auto; 
 }
 
-/* Mobile background images */
 .my-image-container {
   background-image: url("assets/img/ducko256.png");
 }
@@ -172,7 +160,6 @@ header.masthead p, header.masthead2 p {
   background-image: url("assets/img/duckoups.png");
 }
 
-/* Common styles for containers */
 .container-sm {
   margin-top: 30px;
   text-align: center;
@@ -182,7 +169,6 @@ header.masthead p, header.masthead2 p {
   margin-left: 0;
 }
 
-/* Adjust margin for larger screens */
 @media (min-width: 992px) {
   .container-sm {
     margin-top: 230px;
@@ -192,14 +178,12 @@ header.masthead p, header.masthead2 p {
   }
 }
 
-/* Adjust padding for larger screens */
 @media (min-width: 992px) {
   .container2 {
     padding-top: 160px;
   }
 }
 
-/* Common text styles */
 .text-white {
   font-family: "Helvetica";
 }
