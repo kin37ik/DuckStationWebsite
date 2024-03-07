@@ -26,6 +26,14 @@ header.masthead2 .h1 {
   font-size: 2.25rem;
 }
 
+@media (min-width: 992px) {
+  header.masthead,
+  header.masthead2 {
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+
   header.masthead p,
   header.masthead2 p {
     font-size: 1.15rem;
@@ -36,6 +44,15 @@ header.masthead2 .h1 {
   header.masthead2 h1,
   header.masthead2 .h1 {
     font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1,
+  header.masthead .h1,
+  header.masthead2 h1,
+  header.masthead2 .h1 {
+    font-size: 3.5rem;
   }
 }
 
@@ -93,98 +110,43 @@ header.masthead2 .h1 {
   font-family: "Helvetica";
 }
 
-@charset "utf-8";
-
-header.masthead, header.masthead2 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  text-align: center;
-}
-
-header.masthead {
-  background: linear-gradient(to bottom, rgba(0, 200, 250, 1.0) 10%, rgba(0, 80, 190, 1.0) 100%);
-}
-
-header.masthead2 {
-  background: linear-gradient(to bottom, rgba(240, 20, 100, 1.0) 10%, rgba(200, 140, 0, 1.0) 100%);
-}
-
-header.masthead h1, header.masthead .h1, header.masthead2 h1, header.masthead2 .h1 {
-  font-size: 2rem;
-  padding-top: 9vh;
-}
-
-header.masthead p, header.masthead2 p {
-  font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-  header.masthead h1, header.masthead .h1, header.masthead2 h1, header.masthead2 .h1 {
-    font-size: 3rem;
-
-  }
-}
-
-.dropdown-item, .nav-link, .nav-item .nav-link.active {
-  color: #FFFFFF;
-}
-
-.nav-link:hover {
-  color: #000000;
-}
-
-.dropdown-menu {
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-}
-
-.dropdown-toggle::after {
-  display: none;
-}
-
-.my-image-container, .my-image-container2 {
-  height: 250px;
-  max-width: 100%;
-  margin: 0 auto; 
-}
-
-.my-image-container {
-  background-image: url("assets/img/ducko256.png");
-}
-
-.my-image-container2 {
-  background-image: url("assets/img/duckoups.png");
-}
-
-.container-sm {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.col-lg-7 {
-  margin-left: 0;
-}
-
-@media (min-width: 992px) {
-  .container-sm {
-    margin-top: 230px;
-  }
-  .col-lg-7 {
-    margin-left: 40px;
-  }
-}
-
-@media (min-width: 992px) {
+@media only screen and (max-width: 750px){
   .container2 {
-    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0px;
   }
-}
 
-.text-white {
-  font-family: "Helvetica";
-}
+  .col-lg-7 {
+    justify-content: center;
+    margin-left: 0px;
+  }
 
+  .my-image-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    max-width: none;
+    background-position: center;
+  }
+
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .my-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    max-width: none;
+    background-position: center;
+  }
+
+}
