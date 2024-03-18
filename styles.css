@@ -109,3 +109,44 @@ header.masthead2 .h1 {
 .text-white {
   font-family: "Helvetica";
 }
+
+@media only screen and (max-width: 750px){
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0px;
+  }
+
+  .col-lg-7 {
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .my-image-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    max-width: none;
+    background-position: center;
+  }
+
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .my-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    max-width: none;
+    background-position: center;
+  }
+
+}
