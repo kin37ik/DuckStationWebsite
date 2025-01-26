@@ -1,0 +1,110 @@
+{
+    "languages": {
+        "en": "English",
+        "jp": "日本語",
+        "pt": "Português",
+        "ru": "Русский"
+    },
+    "elements": {
+        "header": {
+            "home": {
+                "en": "Home",
+                "jp": "ホーム",
+                "pt": "Início",
+                "ru": "Дом"
+            },
+            "download": {
+                "en": "Download",
+                "jp": "ダウンロード",
+                "pt": "Download",
+                "ru": "Скачать"
+            },
+            "lang": {
+                "en": "Lang",
+                "jp": "ラング",
+                "pt": "Idioma",
+                "ru": "Язык"
+            }
+        },
+        "index-main": {
+            "descr_1": {
+                "en": "DuckStation is a PS1 Emulator aiming for the best accuracy and game support.",
+                "jp": "ダックステーションはPS1エミュレーターであり、最高の精度とゲームサポートを目指しています。",
+                "pt": "DuckStation é um emulador de Playstation 1 que busca a melhor precisão e suporte a jogos.",
+                "ru": "DuckStation — это эмулятор PS1, нацеленный на максимальную точность и совместимость с играми."
+            },
+            "descr_2": {
+                "en": "Download DuckStation current version:",
+                "jp": "ダックステーションの現在のバージョンをダウンロードする:",
+                "pt": "Baixar versão mais atual do emulador:",
+                "ru": "Скачать текущую версию DuckStation:"
+            },
+            "platforms": {
+                "en": "Other Platforms",
+                "jp": "その他のプラットフォーム",
+                "pt": "Outras plataformas",
+                "ru": "Другие платформы"
+            }
+        },
+        "windl-main": {
+            "descr_1": {
+                "en": "DuckStation requires VC++ Runtime to be installed first before running.",
+                "jp": "使用する前にVC++ランタイムをインストールする必要があります。",
+                "pt": "DuckStation requer que o VC++ Runtime seja instalado antes de ser executado.",
+                "ru": "Перед запуском DuckStation необходимо установить среду выполнения VC++."
+            },
+            "descr_2": {
+                "en": "Download VC++ Runtime and DuckStation Below:",
+                "jp": "以下は、VC++ランタイムとダックステーションのダウンロードです。:",
+                "pt": "Baixar o Runtime VC++ bem como do emulador abaixo:",
+                "ru": "Загрузите среду выполнения VC++ и DuckStation ниже:"
+            },
+            "download-vc": {
+                "en": "Download VC++RT",
+                "jp": "VC++RTをダウンロード",
+                "pt": "Baixar VC++RT",
+                "ru": "Скачать VC++RT"
+            },
+            "download-duck": {
+                "en": "Download Duck",
+                "jp": "アヒルをダウンロード",
+                "pt": "Baixar Duck",
+                "ru": "Скачать Duck"
+            }
+        },
+        "404-main": {
+            "header": {
+                "en": "Uh Oh, 404!",
+                "jp": "ああ、404！",
+                "pt": "Oh não, 404!",
+                "ru": "Ой-ой, 404!"
+            },
+            "descr_1": {
+                "en": "Ducko doesn't know how you got here.",
+                "jp": "ダッコはあなたがどうやってここに来たのか知りません。",
+                "pt": "Ducko não sabe como você chegou até aqui.",
+                "ru": "Ducko не знает, как ты сюда попал."
+            },
+            "descr_2": {
+                "en": "But he recommends starting over again from the Home Page.",
+                "jp": "しかし、彼はホームページからやり直すことを勧めています。",
+                "pt": "Mas te recomendaria a voltar para a página inicial.",
+                "ru": "Но он рекомендует начать заново с главной страницы."
+            },
+            "home-btn": {
+                "en": "Return Home",
+                "jp": "ホーム",
+                "pt": "Voltar",
+                "ru": "Вернуться домой"
+            }
+        },
+        "footer": {
+            "made_for": {
+                "en": "Made for",
+                "jp": "のために作られた",
+                "pt": "Feito para",
+                "ru": "Сделано для"
+            }
+        }
+    }
+}
