@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", () => {
             callback(cachedData);
             return;
         }
-        fetch("translation.json")
+        fetch("/translation.json")
             .then((response) => {
                 if (!response.ok) throw new Error("JSON Download error");
                 return response.json();
